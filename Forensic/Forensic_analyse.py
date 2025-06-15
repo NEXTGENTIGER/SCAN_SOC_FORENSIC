@@ -4,40 +4,6 @@
 """
 Forensic Analyzer - Outil d'analyse forensique autonome
 Analyse les fichiers, la mémoire et les systèmes sans dépendances externes
-Afficher plus
-message.txt
-19 Ko
-ca donne ca :
-{
-    "timestamp": "2025-06-14T19:17:07.149424",
-    "target": "/home/user/RR/input/malware_test.exe",
-    "analysis": {
-        "basic_info": {
-            "filename": "malware_test.exe",
-Afficher plus
-message.txt
-7 Ko
-sans utiliser dautre outils qui neccesite insatlaltion
-malware_test.exe ---exemple
-import os
-
-# === 1. Création des dossiers ===
-base_dir = "/home/user/RR"
-input_dir = os.path.join(base_dir, "input")
-rules_dir = os.path.join(base_dir, "rules")
-Afficher plus
-message.txt
-3 Ko
-@Wati jb ca te vas ou je fait avec docker ( je galere avec ca)
-NextGenTiger — Hier à 19:28
-python3 forensic_analyzer.py /home/user/RR/input/malware_test.exe --verbose
-﻿
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-"""
-Forensic Analyzer - Outil d'analyse forensique autonome
-Analyse les fichiers, la mémoire et les systèmes sans dépendances externes
 """
 
 import os
@@ -537,5 +503,3 @@ def main():
 
 if __name__ == '__main__':
     main() 
-
-19 Ko
